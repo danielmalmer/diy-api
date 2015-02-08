@@ -1,0 +1,10 @@
+<div class="banner">Choose A Skill To See Challenges</div>
+<div id="skills" class="container">
+{{#each skills}}
+<div class="col-xs-12 col-sm-6 col-md-4 grid">
+<a href="/challenges/{{url}}"><img src="{{images.medium}}"></a>
+<div class="title"><a href="/challenges/{{url}}">{{title}}</a></div>
+<div class="description">{{description}}</div>
+</div>
+{{/each}}
+</div>

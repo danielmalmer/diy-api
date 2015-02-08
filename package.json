@@ -1,0 +1,11 @@
+{
+  "name": "DIY-API",
+  "version": "0.0.1",
+  "description": "Shows DIY Challenges",
+  "dependencies": {
+	"express": "*",
+	"express-handlebars": "*",
+	"request-json": "*"
+   },
+  "engine": "node >=0.6.x"
+}
