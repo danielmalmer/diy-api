@@ -4,7 +4,7 @@
   "description": "Shows DIY Challenges",
   "dependencies": {
 	"express": "*",
-	"express-handlebars": "*",
+	"express3-handlebars": "*",
 	"request-json": "*"
    },
   "engine": "node >=0.6.x"
